@@ -6,6 +6,6 @@ variable "aws_region" {
 
 variable "s3_bucket_name" {
   type        = string
-  default     = "erply-test-s3-website"
+  default     = "dayos-es3-website"
   description = "AWS S3 Bucket Name"
 }
