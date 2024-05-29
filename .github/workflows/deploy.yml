@@ -1,7 +1,7 @@
 name: Deploy S3 Website
 
 on:
-  [push, pull_request]
+    [push, pull_request]
   
 env:
     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
