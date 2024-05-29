@@ -12,10 +12,10 @@ terraform {
 
 
   backend "s3" {
-    bucket         = "olatest-logger-lambda"
+    bucket         = "deterraform-on-aws-for-ec2"
     key            = "terraform/s3_website/deployment.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform-s3-backend-locking"
+    dynamodb_table = "dev-project1-vpc"
     encrypt        = true
   }
 
